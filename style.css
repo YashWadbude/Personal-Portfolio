@@ -20,7 +20,7 @@ body {
 /* ===== Header ===== */
 /* Header */
 header {
-    background-color: rgb(41, 255, 230);
+    background-color: rgb(36, 40, 40);
   border-bottom: 1px solid #e5e7eb;
   padding: 0.75rem 0;
   position: sticky;
@@ -608,3 +608,4 @@ footer {
         justify-content: center;
     }
 }
+
