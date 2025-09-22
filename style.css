@@ -51,7 +51,7 @@ header {
 .company-name {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #040509;
+  color: #f8f5f5;
   letter-spacing: 0.5px;
 }
 
@@ -64,7 +64,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #4b5563;
+  color: #f3f8ff;
   font-weight: 500;
   transition: color 0.2s ease;
 }
@@ -608,5 +608,6 @@ footer {
         justify-content: center;
     }
 }
+
 
 
