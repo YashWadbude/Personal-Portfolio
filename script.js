@@ -51,16 +51,17 @@ window.addEventListener('scroll', () => {
 const projectsContainer = document.querySelector('.projects-container');
 
 const projects = [
+   {
+    title: 'Personal Portfolio',
+    img: 'portfolio.jpg',
+    link: 'https://yashwadbude.github.io/Personal-Portfolio/#'
+  },
   {
     title: 'Real Time Hand Gesture to Text Translation',
     img: 'hand_gesture.png',
     link: '#'
   },
-  {
-    title: 'Personal Portfolio',
-    img: 'portfolio.jpg',
-    link: '#'
-  },
+  
   {
     title: 'Movie',
     img: 'movie.jpeg',
@@ -187,3 +188,4 @@ function animateSkills() {
 
 window.addEventListener('scroll', animateSkills);
 window.addEventListener('load', animateSkills);
+
