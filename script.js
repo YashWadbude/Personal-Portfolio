@@ -44,14 +44,13 @@ window.addEventListener('scroll', () => {
 });
 
 
-
 /* =========================
    Dynamic Project Cards
 ========================= */
 const projectsContainer = document.querySelector('.projects-container');
 
 const projects = [
-   {
+  {
     title: 'Personal Portfolio',
     img: 'portfolio.jpg',
     link: 'https://yashwadbude.github.io/Personal-Portfolio/#'
@@ -59,36 +58,80 @@ const projects = [
   {
     title: 'Real Time Hand Gesture to Text Translation',
     img: 'hand_gesture.png',
-    link: '#'
+    link: 'https://github.com/YashWadbude/Hand-Gesture-to-text-Translator'
   },
   
   {
     title: 'Movie',
     img: 'movie.jpeg',
-    link: '#'
+    link: '#' // replace with actual link
   }
 ];
 
 function renderProjects() {
   if (!projectsContainer) return;
   projectsContainer.innerHTML = '';
+
   projects.forEach(project => {
     const card = document.createElement('div');
     card.className = 'project-card';
+
     card.innerHTML = `
       <div class="project-image">
         <img src="${project.img}" alt="${project.title}">
       </div>
       <div>
         <h3>${project.title}</h3>
-        <a href="${project.link}">View Project</a>
+        <a href="${project.link}" target="_blank" class="btn">View Project</a>
       </div>
     `;
+
     projectsContainer.appendChild(card);
   });
 }
 
 renderProjects();
+
+
+/* =========================
+   Dynamic Certificate Cards
+========================= */
+
+const certificates = [
+  {
+    title: 'SQL (Intermediate)',
+    issuer: 'Hacker-rank',
+    link: 'https://www.hackerrank.com/certificates/abdcc1f7a09f'
+  },
+  {
+    title: 'Java',
+    issuer: 'Hacker-rank',
+    link: 'https://www.hackerrank.com/certificates/4c0177d929cc'
+  },
+  {
+    title: 'Palo Alto Cybersecurity',
+    issuer: 'Palo Alto Cybersecurity Virtual Internship',
+    link: 'cyber security virtual intenship certificate.pdf'
+  },
+  
+  
+];
+
+const container = document.getElementById('certificatesContainer');
+
+certificates.forEach(cert => {
+  const certItem = document.createElement('div');
+  certItem.className = 'certificate__item';
+  certItem.innerHTML = `
+    <div class="certificate__info">
+      <h3>${cert.title}</h3>
+      <p>${cert.issuer}</p>
+    </div>
+    <button class="certificate__button" onclick="window.open('${cert.link}', '_blank')">View</button>
+  `;
+  container.appendChild(certItem);
+});
+
 
 /* =========================
    Scroll Reveal Animations
@@ -188,4 +231,5 @@ function animateSkills() {
 
 window.addEventListener('scroll', animateSkills);
 window.addEventListener('load', animateSkills);
+
 
