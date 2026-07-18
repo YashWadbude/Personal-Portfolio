@@ -71,14 +71,14 @@
       "name": "SQL",
       "issuer": "HackerRank",
       "year": "2025",
-      "credentialUrl": "/certificate/SQL.pdf",
+      "credentialUrl": "/certificate/sql.pdf",
       "priority": "medium"
     },
     {
       "name": "Problem Solving",
       "issuer": "HackerRank",
       "year": "2026",
-      "credentialUrl": "/certificate/Problem_Solving.pdf",
+      "credentialUrl": "/certificate/problem_solving.pdf",
       "priority": "medium"
     }
   ],
