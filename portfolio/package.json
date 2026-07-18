@@ -1,0 +1,13 @@
+{
+  "name": "pentester-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site for an ethical hacker / penetration tester, with a dynamic config-driven frontend and a small Express backend for the feedback form.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

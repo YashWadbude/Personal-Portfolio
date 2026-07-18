@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Penetration Tester</title>
+  <meta name="description" content="Personal portfolio of an ethical hacker / penetration tester.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="scanline" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <nav class="nav-wrap">
+      <a href="#home" class="nav-brand"><span class="prompt">$</span> <span id="navName">whoami</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#certifications">certs</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#" id="resumeBtnNav" class="btn btn-ghost btn-small">resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="terminal-window" id="terminalWindow">
+            <div class="terminal-titlebar">
+              <span class="dot dot-red"></span><span class="dot dot-amber"></span><span class="dot dot-green"></span>
+              <span class="terminal-path">session — /home/ash</span>
+            </div>
+            <div class="terminal-body" id="terminalBody" aria-live="polite">
+              <div class="terminal-body-content">
+                <div id="terminalBodyContent"></div>
+              </div>
+              <div class="terminal-portrait">
+                <div class="photo-frame">
+                  <img id="profileImage" src="assets/profile.jpg" alt="Profile photo"
+                    onerror="this.classList.add('img-fallback')">
+                  <span class="status-chip" id="availabilityChip">available</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to content">▾</a>
+    </section>
+
+    <div class="skills-education-container">
+      <!-- SKILLS -->
+      <section id="skills" class="section section-alt">
+        <div class="section-head">
+          <span class="eyebrow">capability scan</span>
+          <h2>Skills</h2>
+          <!-- <p class="section-note">Rated the way findings are rated — by impact, not vanity percentages.</p> -->
+        </div>
+        <div class="severity-key" aria-hidden="true">
+          <span><i class="sw sw-critical"></i>critical</span>
+          <span><i class="sw sw-high"></i>high</span>
+          <span><i class="sw sw-medium"></i>medium</span>
+          <span><i class="sw sw-low"></i>low</span>
+        </div>
+        <ul class="skills-list" id="skillsList"></ul>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <div class="section-head">
+          <span class="eyebrow">background</span>
+          <h2>Education</h2>
+        </div>
+        <ul class="edu-list" id="eduList"></ul>
+      </section>
+    </div>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <span class="eyebrow">findings report</span>
+        <h2>Projects</h2>
+        <!-- <p class="section-note">Pulled live from GitHub. Pin repos there and they'll show up here automatically.</p> -->
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <div class="project-card skeleton" aria-hidden="true"></div>
+        <div class="project-card skeleton" aria-hidden="true"></div>
+        <div class="project-card skeleton" aria-hidden="true"></div>
+      </div>
+      <p class="projects-status" id="projectsStatus"></p>
+    </section>
+
+
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section section-alt">
+      <div class="section-head">
+        <span class="eyebrow">compliance</span>
+        <h2>Certifications</h2>
+      </div>
+      <ul class="cert-list" id="certList"></ul>
+    </section>
+
+
+
+    <!-- CONTACT / FEEDBACK -->
+    <section id="contact" class="section section-alt">
+      <div class="section-head">
+        <span class="eyebrow">submit a report</span>
+        <h2>Get in touch</h2>
+        <p class="section-note">Found a bug in this site, want to talk about an engagement, or just say hi — send it
+          through.</p>
+      </div>
+
+      <form class="feedback-form" id="feedbackForm" novalidate>
+        <div class="field">
+          <label for="fbName">Name</label>
+          <input type="text" id="fbName" name="name" required maxlength="200" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="fbEmail">Email</label>
+          <input type="email" id="fbEmail" name="email" required maxlength="200" autocomplete="email">
+        </div>
+        <div class="field field-full">
+          <label for="fbMessage">Message</label>
+          <textarea id="fbMessage" name="message" rows="5" required maxlength="5000"></textarea>
+        </div>
+        <div class="field field-full form-actions">
+          <button type="submit" class="btn btn-primary" id="fbSubmit">Send message</button>
+          <span class="form-status" id="fbStatus" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p><span class="prompt">$</span> echo "thanks for stopping by" — <span id="footerName">EDIT_ME Your Name</span> ·
+      <span id="footerYear"></span>
+    </p>
+  </footer>
+
+  <!-- Hidden PDF preview modal for the Resume button -->
+  <div class="modal" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle" hidden>
+    <div class="modal-backdrop" id="resumeModalBackdrop"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <span id="resumeModalTitle">Resume</span>
+        <div class="modal-actions">
+          <a id="resumeDownloadLink" class="btn btn-ghost btn-small" download>Download</a>
+          <button class="btn btn-ghost btn-small" id="resumeModalClose" aria-label="Close">Close ✕</button>
+        </div>
+      </div>
+      <iframe id="resumeFrame" title="Resume PDF preview" src=""></iframe>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

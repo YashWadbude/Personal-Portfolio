@@ -1,0 +1,125 @@
+{
+  "profile": {
+    "name": "Yash Wadbude",
+    "title": "Penetration Tester & Ethical Hacker",
+    "tagline": "I break things on purpose, then tell you how to fix them.",
+    "bio": "Welcome to my portfolio! I'm Yash, an aspiring cybersecurity professional who enjoys learning, building, and solving security challenges. Whether it's creating security tools, exploring web vulnerabilities, or working through hands-on labs, I'm always looking for opportunities to improve my skills and share what I learn along the way.",
+    "location": "Nagpur, India",
+    "email": "yashwadbude1234@gmail.com",
+    "githubUsername": "",
+    "linkedin": "https://www.linkedin.com/in/yash-wadbude/",
+    "twitter": "",
+    "profileImage": "assets/ash.png",
+    "resumeFile": "assets/EH Resume.pdf",
+    "availableForWork": true
+  },
+  
+  "skillCategories": [
+    {
+      "title": "OS",
+      "items": [
+        "Kali Linux",
+        "VMware Workstation"
+      ]
+    },
+    {
+      "title": "Tools",
+      "items": [
+        "Burp Suite",
+        "Nmap",
+        "Hydra",
+        "Metasploit",
+        "SQLMap",
+        "GitHub",
+        "OWASP ZAP"
+      ]
+    },
+    {
+      "title": "Languages",
+      "items": [
+        "Java",
+        "Python",
+        "MySQL",
+        "Bash"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Cybersecurity Internship Completion Certificate",
+      "issuer": "The Drop Organization",
+      "year": "2026",
+      "credentialUrl": "/certificate/Drop Internship.pdf",
+      "priority": "critical"
+    },
+    {
+      "name": "Cybersecurity Training Program",
+      "issuer": "The Drop Organization",
+      "year": "2026",
+      "credentialUrl": "/certificate/DCSC.pdf",
+      "priority": "high"
+    },
+    {
+      "name": "Cisco CyberOps Associate",
+      "issuer": "Cisco",
+      "year": "2026",
+      "credentialUrl": "https://www.credly.com/badges/faab48f4-fabc-47fe-a2a6-ad07cc6e42be/public_url",
+      "priority": "medium"
+    },
+    
+    {
+      "name": "SQL",
+      "issuer": "HackerRank",
+      "year": "2025",
+      "credentialUrl": "/certificate/SQL.pdf",
+      "priority": "medium"
+    },
+    {
+      "name": "Problem Solving",
+      "issuer": "HackerRank",
+      "year": "2026",
+      "credentialUrl": "/certificate/Problem_Solving.pdf",
+      "priority": "medium"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Technology",
+      "institution": "Priyadarshini College of Engineering, Nagpur",
+      "duration": " 2022 – 2026",
+      "info" : "I have completed my Bachelor of Technology (B.Tech) in Computer Technology from Priyadarshini College of Engineering, Nagpur. Throughout my academic journey, I developed strong foundations in programming, networking, and cybersecurity. I continue to enhance my technical skills through hands-on projects, security research, and practical learning.  "
+    },
+    {
+      "degree": "Higher Secondary Education (12th)",
+      "institution": "nabira mahavidyalaya katol",
+      "duration": " 2020 – 2022",
+      "info" : "Completed Higher Secondary Education (12th) from Nabira Mahavidyalaya, Katol. Developed foundational knowledge in science, mathematics, and analytical thinking.This academic experience laid the groundwork for my further studies in Computer Technology."
+    },
+    {
+      "degree": "Secondary School Education (10th)",
+      "institution": "SRK Arvind Indo Public School Jalalkheda",
+      "duration": " Till 2020 ",
+      "info" : "Completed 10th board education from SRK Arvind Indo Public School, Jalalkheda. Established strong academic fundamentals and problem-solving abilities. Began my learning journey that led toward computer technology and engineering."
+    }
+  ],
+  "projectsFallback": [
+    {
+      "name": "NoCostNights",
+      "description": "A full-stack streaming application built for scale, using Spring Boot microservices and a responsive frontend.",
+      "url": "https://nocostnights.onrender.com"
+      
+    },
+    {
+      "name": "Hand-Gesture-to-text-Translator",
+      "description": "A computer vision project that translates hand gestures into text in real time.",
+      "url": "https://github.com/YashWadbude/Hand-Gesture-to-text-Translator"
+      
+    },
+    {
+      "name": "Personal-Portfolio",
+      "description": "An earlier version of this personal portfolio site.",
+      "url": "https://yashwadbude.github.io/Personal-Portfolio/"
+      
+    }
+  ]
+}
