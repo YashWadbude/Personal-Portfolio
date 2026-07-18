@@ -16,9 +16,10 @@
   
   "skillCategories": [
     {
-      "title": "OS",
+      "title": "OS & Software",
       "items": [
         "Kali Linux",
+        "Windows 10",
         "VMware Workstation"
       ]
     },
