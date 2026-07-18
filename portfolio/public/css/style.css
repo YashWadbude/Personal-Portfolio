@@ -355,7 +355,7 @@ body{
 .terminal-body .out-muted { color: var(--text-muted); }
 
 /* .terminal-body .line.out-cmd::before {
-  content: "┌──(kali㉿kali)";
+  content: "┌──(root㉿kali)";
   display: block;
   color: var(--accent-cyan);
   margin-bottom: 2px;
@@ -368,7 +368,7 @@ body{
 } */
 
 .terminal-body .line.out-cmd::before {
-    content: "┌──(kali㉿kali) ";
+    content: "┌──(root㉿kali) ";
     display: inline;
     color: var(--accent-cyan);
 }
