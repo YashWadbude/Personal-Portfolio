@@ -99,10 +99,10 @@
       { text: 'whoami --target=self', cls: 'out-cmd', pause: 250 },
       { text: name, cls: 'out-name', pause: 200 },
       { text: title, cls: 'out-title', pause: 150 },
-      { text: '', cls: '', pause: 10 },
+      //{ text: '', cls: '', pause: 10 },
       // { text: `$ cat about.txt`, cls: 'out-cmd', pause: 250 },
       { text: bio, cls: 'out-muted', pause: 120 },
-      { text: '', cls: '', pause: 10 },
+      //{ text: '', cls: '', pause: 10 },
       // { text: `$ cat profile.links`, cls: 'out-cmd', pause: 250 },
       // { text: linkedin ? 'linkedin: connected' : 'linkedin: not provided', cls: 'out-muted', pause: 0 },
     ];
