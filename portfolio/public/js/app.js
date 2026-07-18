@@ -99,10 +99,10 @@
       { text: 'whoami --target=self', cls: 'out-cmd', pause: 250 },
       { text: name, cls: 'out-name', pause: 200 },
       { text: title, cls: 'out-title', pause: 150 },
-      // { text: '', cls: '', pause: 80 },
+      { text: '', cls: '', pause: 80 },
       // { text: `$ cat about.txt`, cls: 'out-cmd', pause: 250 },
       { text: bio, cls: 'out-muted', pause: 120 },
-      // { text: '', cls: '', pause: 80 },
+      { text: '', cls: '', pause: 80 },
       // { text: `$ cat profile.links`, cls: 'out-cmd', pause: 250 },
       // { text: linkedin ? 'linkedin: connected' : 'linkedin: not provided', cls: 'out-muted', pause: 0 },
     ];
@@ -172,6 +172,7 @@
     const logoMap = {
       'kali linux': 'assets/kali.webp',
       'vmware workstation': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/1280px-Vmware_workstation_16_icon.svg.png',
+      'windows 10': 'https://redmondmag.com/-/media/ECG/redmondmag/Images/introimages2014/152101REDSchwartzWin10.jpg',
       'burp suite': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/BurpSuite_logo.svg/1280px-BurpSuite_logo.svg.png',
       'nmap': 'https://networkwalks.com/wp-content/uploads/2021/06/Nmap-practice-lab1.png',
       'metasploit': 'https://assets.tryhackme.com/img/modules/metasploit.png',
