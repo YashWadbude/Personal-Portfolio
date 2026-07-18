@@ -172,7 +172,7 @@
     const logoMap = {
       'kali linux': 'assets/kali.webp',
       'vmware workstation': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/1280px-Vmware_workstation_16_icon.svg.png',
-      'windows 10': 'https://redmondmag.com/-/media/ECG/redmondmag/Images/introimages2014/152101REDSchwartzWin10.jpg',
+      'windows 10': 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png',
       'burp suite': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/BurpSuite_logo.svg/1280px-BurpSuite_logo.svg.png',
       'nmap': 'https://networkwalks.com/wp-content/uploads/2021/06/Nmap-practice-lab1.png',
       'metasploit': 'https://assets.tryhackme.com/img/modules/metasploit.png',
