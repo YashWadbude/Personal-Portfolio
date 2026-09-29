@@ -105,20 +105,32 @@
   ],
   "projectsFallback": [
     {
-      "name": "NoCostNights",
-      "description": "A full-stack streaming application built for scale, using Spring Boot microservices and a responsive frontend.",
+      "name": "PortSwigger Web-Security academy - Vulnerability Reports",
+      "description": "Hands-on exploitation of web application vulnerabilities through PortSwigger Academy labs, with a focus on understanding attack techniques and documenting practical findings.",
+      "url": "https://github.com/YashWadbude/Web-Vulnerability-Assessment-Reports/tree/main/PortSwigger%20Labs"
+      
+    },
+    {
+      "name": "DVWA - Vulnerability Reports",
+      "description": "Practical web security testing on DVWA, covering common vulnerabilities through manual exploitation and documenting the techniques, impact, and results.",
+      "url": "https://github.com/YashWadbude/Web-Vulnerability-Assessment-Reports/tree/main/DVWA"
+      
+    },
+    {
+      "name": "No Cost Nights",
+      "description": "A full-stack movie streaming application built with Spring Boot and a responsive frontend for browsing and streaming movies.",
       "url": "https://nocostnights.onrender.com"
       
     },
     {
       "name": "Hand-Gesture-to-text-Translator",
-      "description": "A computer vision project that translates hand gestures into text in real time.",
+      "description": "A computer vision project that detects hand gestures in real time and translates them into text using gesture recognition.",
       "url": "https://github.com/YashWadbude/Hand-Gesture-to-text-Translator"
       
     },
     {
       "name": "Personal-Portfolio",
-      "description": "Personal portfolio site which showcase my bio including skills, projects, certificates.",
+      "description": "A responsive portfolio website showcasing my skills, projects, certifications, and professional background.",
       "url": "https://personal-portfolio-4goa.onrender.com/"
       
     }
